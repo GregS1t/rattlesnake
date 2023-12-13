@@ -1,0 +1,11 @@
+# .Gitignore file 
+
+.DS_Store
+gpsession/gpsession*
+DATA/*
+.ipynb_checkpoints/
+.dropbox
+*/__pycache__/*
+*.pyc
+*.xls*
+._*

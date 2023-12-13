@@ -3,7 +3,8 @@
 
 ## Versionning
 
-- 0.1: Under development: GUI for the motor only 
+- 0.1: Under development.
+	 
 
 
 ## Purpose
@@ -12,7 +13,7 @@ User interface devoted to control NEWPORT PicoMotor 8742 and ATTOCUBE Interferom
 
 
 ## Author / Contact
-Grégory Sainton (sainton@ipgp.fr) on behalf IPGP and PIONEERS project
+Grégory Sainton on behalf IPGP and PIONEERS project
 
 
 ## Environment
