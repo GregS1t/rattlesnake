@@ -11,6 +11,9 @@
 
 User interface devoted to control NEWPORT PicoMotor 8742 and ATTOCUBE Interferometer IDS3010.
 
+<img src="./images/attocubeIDS3110.jpg" alt="drawing" width="100"/>
+<img src="./images/agilent3631a.jpg" alt="alim" width="100"/>
+<img src="./images/picomotor.jpg" alt="picomotor" width="100">
 
 ## Author / Contact
 Grégory Sainton on behalf IPGP and PIONEERS project
