@@ -54,6 +54,6 @@ So far, you just need to run $python guipioneers.py to run the interface.
 
 ## On going development
 
-![main_window](./images/rattlesnake.png)
+![main_window](./images/rattlesnakemain.png)
 
 
