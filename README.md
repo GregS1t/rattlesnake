@@ -1,5 +1,5 @@
 # GUI PIONEERS
-
+![Pioneers image](./images/splash_guipionner.png)
 
 ## Versionning
 
@@ -32,12 +32,16 @@ PYTHON 3.8
 
 Under Windows, you may have some issue to connect the motor. This is related to the driver used to connect USB devices.
 
-
-
 ### Graphic Interface libraries
 - PyQt5
 - PyQtGraph
  
+### Dependances
+All the necessary packages are listed in requirement.txt 
+You need in particular : 
+- pyqtgraph
+- pyusb
+- pyvisa
 
 ### Newport PicoMotor 8742 lib
 This is an internal development. I didn't put the library in a devoted Git repository. 
@@ -49,3 +53,7 @@ So far, you just need to run $python guipioneers.py to run the interface.
 
 
 ## On going development
+
+![main_window](./images/rattlesnake.png)
+
+
