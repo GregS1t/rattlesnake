@@ -1,0 +1,50 @@
+
+{
+"VERSION": "0.8",
+"GP_DISCLAIMER": "Application devoted to pilot Pivot test benches. \n It allows you to manage Newport PicoMotor 8742 \n and ATTOCUBE IDS3010 interferometer",
+"DEFAULTIDPRODUCT":"0x4000",
+"DEFAULTIDVENDOR":"0x104d",
+
+"DISCLAIMER":"Bah encore une belle version de ouf. Avec plein de nouveau truc de dingue.",
+
+"MESSAGEDEVICENOTFOUND": "ERROR: Device not found on any USB port.",
+"MESSAGEMOTORALREADYCONNECTED": "WARNING: Motor is already connected.",
+"MESSAGEMOTORPERMISSIONERROR":"ERROR: Device already in use (permission denied).",
+"MESSAGEMOTORDISCONNECTED": "WARNING: Motor is now disconnected.",
+
+"MAXNUMBEROFCYCLE": "100",
+"MAXNUMBEROFDWELL":"300",
+"MINDWELLTIME": "1",
+"MAXVELOCITY": "2000",
+"MAXACCELERATION": "10000",
+
+"FILESESSIONPREFIX": "log_cycle_",
+"FILE_EXTENTION": ".txt",
+"SESSIONDIRNAME":"gpsession",
+"SESSIONFILENAME": "gp_last_session_param.json",
+
+"INTERFERO_IP": "172.27.36.217",
+"INTERFERO_INTERVAL_MICROSEC":"1000",
+"INTERFERO_TIME_RANGE_PLOT": "5",
+"INTERFERO_XLABEL_PLOT": "Samples",
+"INTERFERO_YLABEL_PLOT": "Displacement (mm)",
+
+"AGILENT_VOLT_SETUP": "+25",
+"AGILENT_DWELL_TIME": "200",
+"AGILENT_DWELL_TIME_LOW":"15",
+"AGILENT_VOLT_MIN": "0",
+"AGILENT_VOLT_MAX": "25",
+"AGILENT_VOLT_STEP": "1",
+"AGILENT_CURRENT":"1",
+"AGILENT_INSTR_RESSOURCE": "ASRL::INSTR",
+"AGILENT_JOG_STEP":"1",
+"AGILENT_JOG_VOLTAGE":"0",
+
+
+
+"DEFAULT_WAVE_LOCATION":"WAVE",
+"DEFAULT_RECORD_DIR": "C:\\Users\\cave\\Dropbox (IPGP)\\FSS\\RattleSnake_Tests",
+"DEFAULT_RECORD_PREFIX_FILE": "new_test_RS",
+"DEFAULT_RECORD_PREFIX_MOTOR_FILE": "motor",
+"DEFAULT_RECORD_PREFIX_AGILENT_FILE": "agilent3631E"
+}
