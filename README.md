@@ -9,11 +9,11 @@
 
 ## Purpose
 
-User interface devoted to control NEWPORT PicoMotor 8742 and ATTOCUBE Interferometer IDS3010.
+User interface devoted to control NEWPORT PicoMotor 8742, ATTOCUBE Interferometer IDS3010 and power supply
 
-<img src="./images/attocubeIDS3110.jpg" alt="drawing" width="100"/>
-<img src="./images/agilent3631a.jpg" alt="alim" width="100"/>
-<img src="./images/picomotor.jpg" alt="picomotor" width="100">
+<img src="./images/attocubeIDS3110.jpg" alt="drawing" width="300"/>
+<img src="./images/agilent3631a.jpg" alt="alim" width="300"/>
+<img src="./images/picomotor.jpg" alt="picomotor" width="300">
 
 ## Author / Contact
 Grégory Sainton on behalf IPGP and PIONEERS project
