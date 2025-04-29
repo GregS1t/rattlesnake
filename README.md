@@ -92,7 +92,6 @@ The ATTOCUBE interferometer drivers are proprietary. Without an explicit purchas
 ### Newport PicoMotor 8742 lib
 This is an internal development. I didn't put the library in a devoted Git repository. 
 It's saved in MOTOR directory.  
- 
 
 ## On going development
 ### Main screen at start
@@ -127,9 +126,15 @@ If you want to contribute or develop Rattlesnake, several additional tools are i
 - PyInstaller to create standalone executables
 
 ### Update the UI interface
-All the graphical interface was made using `designer`
-If you want to edit or create new .ui interfaces:
+All the graphical interface was made using `Qt Designer`
 
-```
-designer
-```
+- The current main interface is designed in `rattlesnake_mv_0.10.ui` file (in the `UIDIR` folder). For any change of the content, everything starts within this `.ui` file.
+- To add another menu, add another specific `.ui` file.
+
+- The name you will give to the widgets (from QtDesigner) will be used in the code to implement their callback.
+
+<img src="./images/QtDesigner_w_RS_ScreenShot_1.png" alt="QtDesigner" width="800"/>
+
+### Multithreading
+
+For reasons of fluidity, RattleSnake is multithreaded like most graphics applications. It is important to maintain this mode of operation, otherwise the application's performance would be profoundly altered, particularly as regards instrument control and data acquisition from the various sensors.
