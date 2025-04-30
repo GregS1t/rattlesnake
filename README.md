@@ -138,3 +138,44 @@ All the graphical interface was made using `Qt Designer`
 ### Multithreading
 
 For reasons of fluidity, RattleSnake is multithreaded like most graphics applications. It is important to maintain this mode of operation, otherwise the application's performance would be profoundly altered, particularly as regards instrument control and data acquisition from the various sensors.
+
+### Workflow of the GUI and main features
+
+1. GuiPioneersMainWindow (inherits from QtWidgets.QMainWindow)
+
+Core of the application with:
+
+- Multiple tabbed widgets (one per device),
+- Graph plotting using pyqtgraph,
+- Connection, configuration, and control logic for each instrument.
+
+#### 2. Motor Control (Newport Picomotor)
+
+Uses Pico8742Ctrl class for low-level USB communication.
+
+Supports:
+- Jog motion (free-run in a direction),
+- Relative/absolute positioning,
+- Cycle execution (repeated back-and-forth movement with dwell time),
+- Parameter persistence via session files.
+
+#### 3. Interferometer Control (IDS3010)
+
+Imports gui_interfero.IDS_IPGP and ids_stream.Stream.
+
+Handles:
+
+- Connection and initialization,
+- Starting/stopping distance measurement and alignment,
+- Data acquisition and real-time plotting,
+- Recording data to .aws files.
+
+#### 4. Agilent Power Supply
+
+Uses pyvisa to communicate via VISA resource strings.
+
+Supports:
+- Setting voltage/cycle parameters,
+- Voltage jogging (manual increase/decrease),
+- Voltage cycling (e.g., Vmin → Vmax → Vmin),
+- Data recording.
